@@ -7,6 +7,57 @@
     <meta name="author" content="Shahjalal Farhan Bhuiyan">
     <title>Shahjalal Farhan Bhuiyan | Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .skills-table-container {
+            margin: 2rem 0;
+            overflow-x: auto;
+        }
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.95rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    
+        .skills-table th,
+        .skills-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        
+        .skills-table th {
+            background-color: #ff6b35;
+            color: white;
+            font-weight: 600;
+            text-align: center;
+        }
+        .skills-table tbody tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+        
+        .skills-table tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+        .skills-table tbody tr:hover {
+            background-color: #f0f8ff;
+            transform: scale(1.01);
+            transition: all 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .skills-table {
+                font-size: 0.85rem;
+            }
+            
+            .skills-table th,
+            .skills-table td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
@@ -541,4 +592,5 @@
     </script>
 </body>
 </html>
+
 
